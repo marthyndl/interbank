@@ -65,7 +65,7 @@ const Add: React.FC = (): JSX.Element | null => {
                 type="input"
                 className="form__field"
                 placeholder="Title"
-                onChange={(e) => handleChange(e.target.value)}
+                onChange={(e) => handleChange(e)}
                 name="title"
                 id="title"
               />
@@ -78,7 +78,7 @@ const Add: React.FC = (): JSX.Element | null => {
                 type="input"
                 className="form__field"
                 placeholder="body"
-                onChange={(e) => handleChange(e.target.value)}
+                onChange={(e) => handleChange(e)}
                 name="body"
                 id="body"
               />
